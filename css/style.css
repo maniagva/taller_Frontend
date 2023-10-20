@@ -1,0 +1,102 @@
+*{
+    font-size: 30px;
+    text-align: center;
+}
+
+.azul {
+    color: blue;
+  }
+
+.rojo {
+    color: red;
+  }
+
+#punto5 .s1{
+    color: green;
+    text-decoration: underline;
+ }
+ 
+#punto5 .s2{
+    color: red;
+ }
+
+#punto5 .s3{
+    text-decoration: overline underline;
+ }
+
+#punto5 .s4{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#punto5 .s5{
+    color: blue;
+}
+
+#punto5 .s6{
+    color: red;
+    text-decoration: underline;
+}
+
+#punto6 .web1{
+    font-size: 30px;
+    color: yellow;
+}
+
+#punto6 .web1:hover{
+    color: red;
+}
+#punto6 .web2{
+    font-size: 30px;
+    color: darkviolet;
+}
+#punto6 .web2:hover{
+    color: crimson;
+}
+
+#punto7 nav{
+    align-content: center;
+    background-color: rgb(175, 134, 178);
+}
+
+#punto7 ul{
+    display: inline-flex;
+}
+
+#punto7 li{
+    list-style: none;
+    padding: 10px 30px;
+}
+#punto7 li:hover{
+    background-color: blue;
+}
+
+#punto7 i{
+    color: white;
+    font-size: 25px;
+    font-style: normal;
+}
+
+
+#punto8 table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px dotted black;
+    background-color: yellow;
+    border-bottom: 2.5px dotted red;
+  }
+  
+#punto8  th {
+    width: 200px;
+    text-align: center;
+    color: red;
+    font-style: italic;
+  }
+
+#punto8 th::first-letter{
+    font-weight: bold;
+}
+  
+#punto8  td {
+   border: 1px dotted black;
+  }
